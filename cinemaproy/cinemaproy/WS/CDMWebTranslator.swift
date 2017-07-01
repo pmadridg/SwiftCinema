@@ -9,6 +9,8 @@ class CDMWebTranslator: NSObject {
         
         objSucursal.sucursal_id = objDiccionario["idSucursal"] as? String
         objSucursal.sucursal_nombre = objDiccionario["nombreSucursal"] as? String
+        objSucursal.sucursal_direccion = objDiccionario["direccionSucursal"] as? String
+        objSucursal.sucursal_urlImagen = objDiccionario["fotoCadena"] as? String
         
         return objSucursal
     }

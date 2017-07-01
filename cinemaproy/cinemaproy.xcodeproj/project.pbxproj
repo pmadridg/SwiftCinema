@@ -34,6 +34,8 @@
 		83AE05341EFCC2D500A62808 /* CDMWebResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE05191EFCC2D500A62808 /* CDMWebResponse.swift */; };
 		83AE05351EFCC2D500A62808 /* CDMWebSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE051A1EFCC2D500A62808 /* CDMWebSender.swift */; };
 		83AE05361EFCC2D500A62808 /* CDMWebTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE051B1EFCC2D500A62808 /* CDMWebTranslator.swift */; };
+		83B595771F0801E2004B280A /* SucursalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B595761F0801E2004B280A /* SucursalViewController.swift */; };
+		83B595791F08105D004B280A /* SucursalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B595781F08105D004B280A /* SucursalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		83AE05191EFCC2D500A62808 /* CDMWebResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMWebResponse.swift; sourceTree = "<group>"; };
 		83AE051A1EFCC2D500A62808 /* CDMWebSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMWebSender.swift; sourceTree = "<group>"; };
 		83AE051B1EFCC2D500A62808 /* CDMWebTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMWebTranslator.swift; sourceTree = "<group>"; };
+		83B595761F0801E2004B280A /* SucursalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalViewController.swift; sourceTree = "<group>"; };
+		83B595781F08105D004B280A /* SucursalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 				83AE05121EFCC2D500A62808 /* HorarioViewController.swift */,
 				83AE05131EFCC2D500A62808 /* PeliculasViewController.swift */,
 				83AE05141EFCC2D500A62808 /* PeliculaTableViewCell.swift */,
+				83B595761F0801E2004B280A /* SucursalViewController.swift */,
+				83B595781F08105D004B280A /* SucursalTableViewCell.swift */,
 			);
 			path = Clases;
 			sourceTree = "<group>";
@@ -296,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B595771F0801E2004B280A /* SucursalViewController.swift in Sources */,
 				83AE05291EFCC2D500A62808 /* SucursalDALC.swift in Sources */,
 				83AE05331EFCC2D500A62808 /* CDMWebModel.swift in Sources */,
 				83AE05281EFCC2D500A62808 /* PeliculaDALC.swift in Sources */,
@@ -303,6 +310,7 @@
 				83AE05241EFCC2D500A62808 /* SucursalBE.swift in Sources */,
 				83AE052B1EFCC2D500A62808 /* PeliculaBC.swift in Sources */,
 				83AE05341EFCC2D500A62808 /* CDMWebResponse.swift in Sources */,
+				83B595791F08105D004B280A /* SucursalTableViewCell.swift in Sources */,
 				83AE04E41EFCC23B00A62808 /* ViewController.swift in Sources */,
 				83AE05221EFCC2D500A62808 /* HorarioBE.swift in Sources */,
 				83AE04EA1EFCC23B00A62808 /* cinemaproy.xcdatamodeld in Sources */,

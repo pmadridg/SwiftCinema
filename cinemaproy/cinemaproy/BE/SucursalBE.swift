@@ -12,4 +12,6 @@ class SucursalBE: NSObject {
 
     var sucursal_id: String?
     var sucursal_nombre: String?
+    var sucursal_direccion: String?
+    var sucursal_urlImagen: String?
 }

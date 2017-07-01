@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XxE-WE-ULx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2o1-g1-9oo">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -199,7 +199,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="67"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Y2e-CO-Dsn" id="mug-RC-pZZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="67"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kY9-dw-LCH">
@@ -237,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ff-ax-jiP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2501.25" y="99.295774647887328"/>
+            <point key="canvasLocation" x="2450" y="-80"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="y59-Jg-2Wq">
@@ -256,6 +256,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yaH-HY-W6a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-110.625" y="101.40845070422536"/>
+        </scene>
+        <!--Sucursales View Controller-->
+        <scene sceneID="M2R-o0-2Zt">
+            <objects>
+                <viewController storyboardIdentifier="SucursalViewController" id="2o1-g1-9oo" userLabel="Sucursales View Controller" customClass="SucursalViewController" customModule="cinemaproy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dZs-9c-Hhd"/>
+                        <viewControllerLayoutGuide type="bottom" id="7nv-Xs-u1o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1fb-kX-GaH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="102" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uxZ-9j-vxm" userLabel="Tlb Sucursales">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="SucursalTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="SucursalTableViewCell" rowHeight="102" id="Xw6-4B-DJ3" userLabel="SucursalTableViewCell" customClass="SucursalTableViewCell" customModule="cinemaproy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="102"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xw6-4B-DJ3" id="q4P-mR-3zW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p3t-ag-es0" userLabel="ImgCine">
+                                                    <rect key="frame" x="12" y="8" width="67" height="85"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJh-pb-fj9" userLabel="lblNombreCine">
+                                                    <rect key="frame" x="89" y="24" width="218" height="53"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="1" green="0.67378978499999997" blue="0.35090053919999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgSucursal" destination="p3t-ag-es0" id="tBr-qt-43I"/>
+                                            <outlet property="lblNombreSucursal" destination="YJh-pb-fj9" id="nus-MT-jNz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2o1-g1-9oo" id="FmR-J2-NZV"/>
+                                    <outlet property="delegate" destination="2o1-g1-9oo" id="zvO-DX-Pnv"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uxZ-9j-vxm" firstAttribute="top" secondItem="1fb-kX-GaH" secondAttribute="top" id="dsH-iO-p29"/>
+                            <constraint firstItem="7nv-Xs-u1o" firstAttribute="top" secondItem="uxZ-9j-vxm" secondAttribute="bottom" id="ndl-OK-Rcf"/>
+                            <constraint firstAttribute="trailing" secondItem="uxZ-9j-vxm" secondAttribute="trailing" id="stB-Dc-snG"/>
+                            <constraint firstItem="uxZ-9j-vxm" firstAttribute="leading" secondItem="1fb-kX-GaH" secondAttribute="leading" id="tg8-cd-WQM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xI3-Gn-5Mf"/>
+                    <connections>
+                        <outlet property="tlbSucursales" destination="uxZ-9j-vxm" id="dJr-4j-U9O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ula-6e-cR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3265" y="50"/>
         </scene>
     </scenes>
 </document>
