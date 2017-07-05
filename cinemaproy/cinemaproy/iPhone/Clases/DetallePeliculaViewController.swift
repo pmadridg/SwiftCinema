@@ -11,6 +11,7 @@ class DetallePeliculaViewController: UIViewController {
     @IBOutlet weak var lblhorarioPelicula: UILabel!
     @IBOutlet weak var lblresumenPelicula: UILabel!
     
+    
     var objPelicula : PeliculaBE!
     var objHorario : Horario!
     

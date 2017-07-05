@@ -4,7 +4,7 @@ import UIKit
 
 class CDMWebModel: NSObject {
 
-    static let CDMWebModelURLBase : NSString = "http://coredatamedia.com"
+    static let CDMWebModelURLBase : NSString = "http://kenyirodriguez.com/kenyirodriguez.com/descargas"
     
     typealias ArrayInformacion = (_ arrayPeliculas : NSArray, _ arraySucursales : NSArray, _ arraHorarios : NSArray) -> Void
     

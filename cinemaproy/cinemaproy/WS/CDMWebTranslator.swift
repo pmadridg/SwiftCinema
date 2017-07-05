@@ -36,6 +36,11 @@ class CDMWebTranslator: NSObject {
         objPelicula.pelicula_nombre         =  objDiccionario["nombreComercial"] is NSNull ? "-" : objDiccionario["nombreComercial"] as? String
         objPelicula.pelicula_resumen        = objDiccionario["resumen"] as? String
         objPelicula.pelicula_urlImagen      = objDiccionario["aficheOficial"] as? String
+        objPelicula.pelicula_reparto        = objDiccionario["reparto"] as? String
+        objPelicula.pelicula_director       = objDiccionario["director"] as? String
+        objPelicula.pelicula_genero         = objDiccionario["nombreGenero"] as? String
+        objPelicula.pelicula_publico         = objDiccionario["tipoPublico"] as? String
+        objPelicula.pelicula_fecha         = objDiccionario["fechaPublicacion"] as? String
         
         return objPelicula
     }

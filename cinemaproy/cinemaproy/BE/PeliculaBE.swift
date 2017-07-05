@@ -14,4 +14,9 @@ class PeliculaBE: NSObject {
     var pelicula_urlImagen: String?
     var pelicula_resumen: String?
     var pelicula_id: String?
+    var pelicula_director:String?
+    var pelicula_reparto:String?
+    var pelicula_publico:String?
+    var pelicula_genero:String?
+    var pelicula_fecha:String?
 }

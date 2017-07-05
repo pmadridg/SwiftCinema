@@ -35,6 +35,8 @@ class PeliculaDALC: NSObject {
         objDM!.pelicula_resumen      = objPelicula.pelicula_resumen!
         objDM!.pelicula_urlImagen    = objPelicula.pelicula_urlImagen!
         
+        
+        
         return objDM!
     }
     

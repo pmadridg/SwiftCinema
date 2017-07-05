@@ -36,6 +36,8 @@
 		83AE05361EFCC2D500A62808 /* CDMWebTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE051B1EFCC2D500A62808 /* CDMWebTranslator.swift */; };
 		83B595771F0801E2004B280A /* SucursalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B595761F0801E2004B280A /* SucursalViewController.swift */; };
 		83B595791F08105D004B280A /* SucursalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B595781F08105D004B280A /* SucursalTableViewCell.swift */; };
+		83E977AE1F0D886000A5A5D1 /* DetalleSucursalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E977AD1F0D886000A5A5D1 /* DetalleSucursalViewController.swift */; };
+		83E977B01F0DABA800A5A5D1 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E977AF1F0DABA800A5A5D1 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		83AE051B1EFCC2D500A62808 /* CDMWebTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDMWebTranslator.swift; sourceTree = "<group>"; };
 		83B595761F0801E2004B280A /* SucursalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalViewController.swift; sourceTree = "<group>"; };
 		83B595781F08105D004B280A /* SucursalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SucursalTableViewCell.swift; sourceTree = "<group>"; };
+		83E977AD1F0D886000A5A5D1 /* DetalleSucursalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleSucursalViewController.swift; sourceTree = "<group>"; };
+		83E977AF1F0DABA800A5A5D1 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 				83AE05141EFCC2D500A62808 /* PeliculaTableViewCell.swift */,
 				83B595761F0801E2004B280A /* SucursalViewController.swift */,
 				83B595781F08105D004B280A /* SucursalTableViewCell.swift */,
+				83E977AD1F0D886000A5A5D1 /* DetalleSucursalViewController.swift */,
 			);
 			path = Clases;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				83AE05161EFCC2D500A62808 /* ListadoPeliculas.storyboard */,
+				83E977AF1F0DABA800A5A5D1 /* Media.xcassets */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E977B01F0DABA800A5A5D1 /* Media.xcassets in Resources */,
 				83AE05321EFCC2D500A62808 /* ListadoPeliculas.storyboard in Resources */,
 				83AE04EF1EFCC23B00A62808 /* LaunchScreen.storyboard in Resources */,
 				83AE04EC1EFCC23B00A62808 /* Assets.xcassets in Resources */,
@@ -308,6 +315,7 @@
 				83AE05281EFCC2D500A62808 /* PeliculaDALC.swift in Sources */,
 				83AE052C1EFCC2D500A62808 /* SucursalBC.swift in Sources */,
 				83AE05241EFCC2D500A62808 /* SucursalBE.swift in Sources */,
+				83E977AE1F0D886000A5A5D1 /* DetalleSucursalViewController.swift in Sources */,
 				83AE052B1EFCC2D500A62808 /* PeliculaBC.swift in Sources */,
 				83AE05341EFCC2D500A62808 /* CDMWebResponse.swift in Sources */,
 				83B595791F08105D004B280A /* SucursalTableViewCell.swift in Sources */,
