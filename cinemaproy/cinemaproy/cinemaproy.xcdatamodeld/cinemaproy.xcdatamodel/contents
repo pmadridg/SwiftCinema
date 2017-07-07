@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Horario" representedClassName="Horario" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="horario_horario" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pelicula" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pelicula" inverseName="horarios" inverseEntity="Pelicula" syncable="YES"/>
+        <relationship name="sucursal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sucursal" inverseName="horarios" inverseEntity="Sucursal" syncable="YES"/>
+    </entity>
+    <entity name="Pelicula" representedClassName="Pelicula" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="pelicula_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pelicula_nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pelicula_resumen" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pelicula_urlImagen" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="horarios" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Horario" inverseName="pelicula" inverseEntity="Horario" syncable="YES"/>
+    </entity>
+    <entity name="Sucursal" representedClassName="Sucursal" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="sucursal_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sucursal_nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="horarios" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Horario" inverseName="sucursal" inverseEntity="Horario" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Horario" positionX="-27" positionY="155" width="128" height="88"/>
+        <element name="Pelicula" positionX="-270" positionY="330" width="128" height="118"/>
+        <element name="Sucursal" positionX="232" positionY="315" width="128" height="88"/>
+    </elements>
+</model>
